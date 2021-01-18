@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: page
 title: About Me
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Hi! My name is Irina Bataeva and I am a second year Masters student in Mechanical Engineering with specialization in Robotics at Johns Hopkins University. During my Masters I fell in love with robotics and for my thesis work I have been employing deep learning method to perform image-guided surigcal navigation for K-wire placement in pelvic trauma surgery. 
 </p>
 
 In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
