@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Abouuuut
+layout: default
+title: About Me
 ---
 
 <p class="message">
