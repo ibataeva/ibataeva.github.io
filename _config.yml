@@ -28,7 +28,7 @@ description:           >
   MSE Student | Robotics Engineer
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:                 MSE Student | Robotics Engineer
 
 # A list of keywords for your blog
 keywords:              []
@@ -36,7 +36,7 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/profile_pic.jpg #/assets/img/logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -51,10 +51,10 @@ author:
     path:   /assets/img/profile_pic.jpg
          # {% avatar ibataeva %}
   social:
-    email: bataeva.irina@gmail.com
-    twitter: BataevaIrina
-    github: ibataeva
-    linkedin: irina-bataeva
+    email: "bataeva.irina@gmail.com"
+    twitter: "BataevaIrina"
+    github: "ibataeva"
+    linkedin: "irina-bataeva"
 
 # Add links to the sidebar.
 menu:
