@@ -25,13 +25,15 @@ title:                 Irina Bataeva
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  MSE Student | Robotics Engineer
-
+  I am a 2nd year Masters Student in medical robotics at Johns Hopkins University. I love engineering,
+  medicine, science, and nature. Currently seeking full-time and internship opportunities starting
+  June 2021.
 # A shorter description for the sidebar.
 tagline:                 MSE Student | Robotics Engineer
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              [Irina, Bataeva, IrinaBataeva, ibataeva, robotics, medical
+robotics, medicine, JHU, Hopkins]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -58,12 +60,16 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Projects
-    url:               /docs/
+  # - title:             Example
+  #   url:               /example/
   - title:             About
     url:               /about/
+  - title:             Resume
+    url:               /resume/
+  - title:             Projects
+    url:               /projects/
+
+
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -400,7 +406,7 @@ sass:
 jekyll_compose:
   default_front_matter:
     drafts:
-      layout: post
+      layout: grid
       description: >
         A short ~160 character description of your post for search engines,
         social media previews, etc.

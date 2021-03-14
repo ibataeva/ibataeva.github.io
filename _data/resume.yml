@@ -1,0 +1,135 @@
+# If you have a `resume.json` file, copy it into `_data` and delete this file.
+# If you don't have a JSON Resume you can just edit this YAML file instead.
+# See also: <https://jsonresume.org/>.
+basics:
+  name: "Irina Bataeva"
+  label: "Robotics Engineer"
+  picture: "/assets/img/profile_pic.jpeg"
+  email: "bataeva.irina@gmail.com"
+  phone: "(858) 848 4636"
+  website: "www.ibataeva.com"
+  summary: >
+    I am about to graduate from Johns Hopkins University with Masters in Mechanical Engineering
+    with specialization in Robotics. Previously having completed a B.S. in Bioengineering at
+    UC San Diego, I am passionate about applications of robotic principles in medicine.
+  location:
+    address: "2709 Hampden Ave"
+    postalCode: "MD 21211"
+    city: "Baltimore"
+    countryCode: "US"
+    region: "Maryland"
+  profiles:
+    - network: "LinkedIn"
+      username: "irina-bataeva"
+      url: ""
+work:
+  - company: "I-STAR Labs, Johns Hopkins University"
+    position: "Graduate Research Assistant"
+    website: "https://istar.jhu.edu/"
+    startDate: "2020-07-01"
+    endDate: ""
+    summary: >
+      Under supervision from Professor Jeffrey Siewerdsen developed
+      image-guided navigation for surgical instruments in pelvic trauma surgery
+      as part of the Masters Thesis research project.
+    highlights:
+      - "Designed and generated a training dataset with simulated guidewires on real pelvic radiographs in Python."
+      - "Implemented and trained on cluster Mask R-CNN for segmentation and keypoint detection with PyTorch."
+      - "Developed an algorithm for 3D correspondence of detections using a model of the imaging system geometry."
+      - "Established and verified 3D instrument localization method using backprojection on cadaver and clinical data."
+      - "Conducted cadaver experiments and acquired radiographs for test dataset using a C-arm."
+      - "Published work at SPIE Medical Imaging 2021."
+
+volunteer:
+  - organization: "Maryland Food Bank"
+    startDate: "2020-11-01"
+    endDate: ""
+    summary: ""
+    # highlights:
+    #   - "Awarded 'Teacher of the Month'"
+  - organization: "Two Top Mountain Adaptive Sports Foundation"
+    startDate: "2019-11-01"
+    endDate: "2020-02-28"
+    summary: "Taught snowboarding to people with disabilities and their families."
+  - organization: "Disabled Sports Easter Sierra"
+    startDate: "2017-11-01"
+    endDate: "2019-04-30"
+    summary: "Taught skiing and snowboarding to people with disabilities and their families.
+    Developed lessons plans, fit equipment to students' needs."
+    # highlights:
+    #   - "Awarded 'Teacher of the Month'"
+education:
+  - institution: "University of California, San Diego"
+    area: "Bioengineering"
+    studyType: "Bachelor"
+    # startDate: "2011-06-01"
+    endDate: "2019-06-15"
+    gpa: "3.5"
+  - institution: "Johns Hopkins University"
+    area: "Mechanical Engineering: Robotics"
+    studyType: "Masters"
+    # startDate: "2011-06-01"
+    endDate: "2021-05-15"
+    gpa: "3.65"
+    courses:
+      - "Robot System Programming"
+      - "Machine Learning"
+      - "Deep Learning"
+      - "Algorithms for Sensor-Based Robotics"
+      - "Robot Devices, Kinematics, Dynamics, and Control"
+      - "Nonlinear Control"
+      - "Medical Image Analysis"
+      - "Computer Integrated Surgery"
+      - "Project Management"
+
+awards:
+  - title: "UC Health Hack Finalist"
+    date: "2017-03-01"
+    # awarder: "Techcrunch"
+    # summary: "There is no spoon."
+  - title: "Runner Up Intuitive Surgical Best Project Award"
+    date: "2020-12-10"
+    awarder: "JHU: DL Fall 2020"
+    summary: "Semi-Supervised Deep RL methods"
+publications:
+  - name: "Intraoperative guidance of orthopaedic instruments using 3D correspondence of 2D object instance segmentations"
+    publisher: "SPIE"
+    releaseDate: "2020-02-25"
+    website: "https://doi.org/10.1117/12.2582239"
+    summary: "We report a method that uses routinely acquired fluoroscopic images in standard workflow to automatically detect and localize orthopaedic instruments for 3D guidance."
+# skills:
+#   - name: "Web Development"
+#     level: "Master"
+#     keywords:
+#       - "HTML"
+#       - "CSS"
+#       - "Javascript"
+#   - name: "Compression"
+#     level: "Master"
+#     keywords:
+#       - "Mpeg"
+#       - "MP4"
+#       - "GIF"
+languages:
+  - language: "English"
+    fluency: "Native speaker"
+  - language: "Russian"
+    fluency: "Native speaker"
+  - language: "French"
+    fluency: "Beginner"
+interests:
+  - name: "Snowboarding"
+    # keywords:
+    #   - "Ferrets"
+    #   - "Unicorns"
+  - name: "Hiking/Backpacking"
+  - name: "Mushroom Hunting"
+  - name: "Reading"
+  - name: "Knitting"
+  - name: "Cooking"
+
+# references:
+#   - name: "Erlich Bachman"
+#     reference: >
+#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#       Company proved that he will be a valuable addition to any company.
